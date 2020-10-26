@@ -27,22 +27,21 @@ def recurse():
         	recurse()
 database = {
     1001:{
-        'name': 'Sachin',
+        'name': 'Sukh',
         'age': 22,
-        'email': 'eddygrant000@gmail.com',
-        'password': 'red@123',
+        'email': 'sukj000@gmail.com',
+        'password': 'sukh123',
         'balance':20000
     },
     1002:{
-        'name': 'Tanuj',
+        'name': 'mayank',
         'age': 25,
-        'email': 'tanuj@gmail.com',
-        'password': 'tanu123',
+        'email': 'mayank@gmail.com',
+        'password': 'maya123',
         'balance':10000
     }
 }
-# data = {key: value, key2: value2}
-# database.
+
 account = int(input("Enter account number: "))
 passwd = input("Enter password: ")
 balance=database[account]['balance']
